@@ -1,3 +1,96 @@
+body
+{
+    background-image: url('../images/background-mobile.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(224, 134, 217);
+    background-size: 370px 700px;
+    background-position: 0px 0px;
+    background-blend-mode: multiply;    
+}
+
+    .interface
+    {
+        background-color: rgb(207, 207, 207);
+        background-image: url('../images/label.jpg');
+        background-repeat: no-repeat;
+        background-size: 400px 500px;
+        border: 2px groove black;width: 60%;
+        box-shadow: 5px 10px 5px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .interface *
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+
+    .interface td
+    {
+        background-color: rgba(167, 1, 167, 0.596);
+        display: flex;
+        color: rgb(17, 230, 105);
+        justify-content: center;
+        border: 3px solid purple;
+        border-style: double;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    .interface button
+    {
+        background-color: rgb(40, 10, 173);
+        color: rgb(175, 19, 236);
+        padding: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 5px 0px rgb(63, 5, 63);
+    }
+
+    .interface button:hover
+    {
+        color: rgb(58, 216, 176);
+    }
+
+    h3
+    {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer
+    {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        float: right;
+        color: white;
+        text-align: center;
+    }
+
+a
+{
+    color: rgb(7, 250, 47);
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: rgb(7, 250, 47);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: yellow;
+}
+
 @media only screen and (min-width: 768px)
 {
     body
@@ -86,92 +179,9 @@
         color: rgb(7, 250, 47);
         text-decoration: none;
     }
-}
 
-body
-{
-    background-image: url('../images/background-mobile.jpg');
-    background-repeat: no-repeat;
-    background-color: rgb(224, 134, 217);
-    background-size: 370px 700px;
-    background-position: 0px 0px;
-    background-blend-mode: multiply;    
-}
-
-    .interface
+    a:hover
     {
-        background-color: rgb(207, 207, 207);
-        background-image: url('../images/label.jpg');
-        background-repeat: no-repeat;
-        background-size: 400px 500px;
-        border: 2px groove black;width: 60%;
-        box-shadow: 5px 10px 5px;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+        color: yellow;
     }
-
-    .interface *
-    {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
-    }
-
-    .interface td
-    {
-        background-color: rgba(167, 1, 167, 0.596);
-        display: flex;
-        color: rgb(17, 230, 105);
-        justify-content: center;
-        border: 3px solid purple;
-        border-style: double;
-        padding: 5px;
-        border-radius: 25px;
-    }
-
-    .interface button
-    {
-        background-color: rgb(40, 10, 173);
-        color: rgb(175, 19, 236);
-        padding: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
-        border-radius: 20px;
-        box-shadow: 3px 5px 5px 0px rgb(63, 5, 63);
-    }
-
-    .interface button:hover
-    {
-        color: rgb(58, 216, 176);
-    }
-
-    h3
-    {
-        color: white;
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .footer
-    {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: auto;
-        float: right;
-        color: white;
-        text-align: center;
-    }
-
-a
-{
-    color: rgb(7, 250, 47);
-    text-decoration: none;
-}
-
-a:visited
-{
-    color: rgb(7, 250, 47);
-    text-decoration: none;
 }
