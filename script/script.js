@@ -4,7 +4,9 @@ let x=7;
 function go()
 {
     console.log(x);
-    x = Math.floor(Math.random() * (7 - 1 + 1)) + 1;;
+    var max = 7;
+    var min = 1;
+    x = Math.floor(Math.random() * (max - min + min)) + min;
     document.getElementById('memberPhoto').hidden = false;
     if(x == 1)
     {
