@@ -13,7 +13,7 @@ body
         background-color: rgb(207, 207, 207);
         background-image: url('../images/label.jpg');
         background-repeat: no-repeat;
-        background-size: 400px 500px;
+        background-size: 350px 400px;
         border: 2px groove black;width: 60%;
         box-shadow: 5px 10px 5px;
         border-radius: 15px;
